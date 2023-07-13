@@ -1,2 +1,1 @@
-# Cyclistic bike share case study
-Here is my capstone project for my Google Data Analytics Professional Certificate. 
+## bellabeat fitness tracker case study for Google Data Annyltics Course Capstone
