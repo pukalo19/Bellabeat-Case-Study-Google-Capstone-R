@@ -18,4 +18,4 @@ women with knowledge about their own health and habits. Since it was founded in 
 ## Step 1: Ask
 
 ## Business Task
-Analyse the availale data to find growth opprotunities and provide reccomendations for the bellabeat marketing team.
+Analyze the data of an established competitor, identify growth opportunities, and make recommendations for the bellabeat marketing strategy.
