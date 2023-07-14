@@ -23,7 +23,7 @@ Analyze the data of an established competitor, identify growth opportunities, an
 **Stakeholders:** 
 
 * Urška Sršen: Cheif Creative Officer of bellabeat and cofounder
-* Sando Mur: Cofounder of bellabear and mathematician
+* Sando Mur: Cofounder of bellabeat and mathematician
 
 **Guiding questions for analysis**
 1. What are some trends in smart device usage?
