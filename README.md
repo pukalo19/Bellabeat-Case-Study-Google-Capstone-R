@@ -118,6 +118,7 @@ Now that we have looked over the data and corrected any inconsistencies/errors w
 
 ## Step 4: Analyze 
 [Back to top](#introduction)
+
 We will begin with fiding out how many particitpants there were in each category of the study. 
 ```
 > n_distinct(activity$Id)  
