@@ -206,7 +206,7 @@ TotalSleepRecords TotalMinutesAsleep TotalTimeInBed
  3rd Qu.:1.000     3rd Qu.:490.0      3rd Qu.:526.0  
  Max.   :3.000     Max.   :796.0      Max.   :961.0
 ```
-## Observations
+## Observations:
 * Our participants averaged 7638 steps per day.
 * The average sedintary time was about 16.5 hours.
 * Participants burned on average 2304 calories each day.
