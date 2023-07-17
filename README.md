@@ -63,7 +63,7 @@ intensities <- read.csv("hourlyIntensities_merged.csv", TRUE, ",")
 sleep <- read.csv("sleepDay_merged.csv",TRUE, ",")
 weight <- read.csv("weightLogInfo_merged.csv",TRUE, ",")
 ```
-
+Now that all the data we will be using is uploaded we can start the process of cleaning the data. Lets take a look at the data and 
 ```
           Id ActivityDate TotalSteps TotalDistance TrackerDistance
 1 1503960366    4/12/2016      13162          8.50            8.50
@@ -93,4 +93,12 @@ weight <- read.csv("weightLogInfo_merged.csv",TRUE, ",")
 4                  34                  209              726     1745
 5                  10                  221              773     1863
 6                  20                  164              539     1728
+```
+Checking the rest of the data 
+```
+head(calories)
+head(intensities)
+head(sleep)
+head(weight)
+head(weight)
 ```
