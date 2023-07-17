@@ -137,7 +137,7 @@ We will begin with fiding out how many particitpants there were in each category
 ```
 So, there are 33 participants in the Activity, Calories, and Intensities datasets. 24 participants in the Sleep data. The real problem is there is only eight participants in the weight dataset, meaning that we are not likely to be able to make a strong reccomendation or decision with only data from eight participants.
 
-Let's see if there was any major changes in these eight participants weight
+Let's see if there was any major changes in the weight of our eight participants.
 ```
 weight%>%
   group_by(Id)%>%
@@ -153,4 +153,56 @@ Id `min(WeightKg)` `max(WeightKg)`
 6 5577150313            90.7            90.7
 7 6962181067            61              62.5
 8 8877689391            84              85.8
+```
+Due to the fact there was hardly any change in our participants weight and a very small sample size, I think it is best that we not use any of the weight data going forward.
+
+Now we can grab a summary of the rest of the data we will be using.
+```
+activity %>%  
+  select(TotalSteps,
+         TotalDistance,
+         SedentaryMinutes, Calories) %>%
+  summary()
+
+activity %>%
+  select(VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes) %>%
+  summary()
+
+calories %>%
+  select(Calories) %>%
+  summary()
+
+sleep %>%
+  select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+  summary()
+```
+```
+TotalSteps    TotalDistance    SedentaryMinutes    Calories   
+ Min.   :    0   Min.   : 0.000   Min.   :   0.0   Min.   :   0  
+ 1st Qu.: 3790   1st Qu.: 2.620   1st Qu.: 729.8   1st Qu.:1828  
+ Median : 7406   Median : 5.245   Median :1057.5   Median :2134  
+ Mean   : 7638   Mean   : 5.490   Mean   : 991.2   Mean   :2304  
+ 3rd Qu.:10727   3rd Qu.: 7.713   3rd Qu.:1229.5   3rd Qu.:2793  
+ Max.   :36019   Max.   :28.030   Max.   :1440.0   Max.   :4900
+VeryActiveMinutes FairlyActiveMinutes LightlyActiveMinutes 
+ Min.   :  0.00    Min.   :  0.00      Min.   :  0.0       
+ 1st Qu.:  0.00    1st Qu.:  0.00      1st Qu.:127.0       
+ Median :  4.00    Median :  6.00      Median :199.0       
+ Mean   : 21.16    Mean   : 13.56      Mean   :192.8       
+ 3rd Qu.: 32.00    3rd Qu.: 19.00      3rd Qu.:264.0       
+ Max.   :210.00    Max.   :143.00      Max.   :518.0
+ Calories   
+ Min.   :   0  
+ 1st Qu.:1828  
+ Median :2134  
+ Mean   :2304  
+ 3rd Qu.:2793  
+ Max.   :4900
+TotalSleepRecords TotalMinutesAsleep TotalTimeInBed 
+ Min.   :1.000     Min.   : 58.0      Min.   : 61.0  
+ 1st Qu.:1.000     1st Qu.:361.0      1st Qu.:403.0  
+ Median :1.000     Median :433.0      Median :463.0  
+ Mean   :1.119     Mean   :419.5      Mean   :458.6  
+ 3rd Qu.:1.000     3rd Qu.:490.0      3rd Qu.:526.0  
+ Max.   :3.000     Max.   :796.0      Max.   :961.0
 ```
