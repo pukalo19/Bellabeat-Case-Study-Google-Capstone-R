@@ -63,3 +63,34 @@ intensities <- read.csv("hourlyIntensities_merged.csv", TRUE, ",")
 sleep <- read.csv("sleepDay_merged.csv",TRUE, ",")
 weight <- read.csv("weightLogInfo_merged.csv",TRUE, ",")
 ```
+
+```
+          Id ActivityDate TotalSteps TotalDistance TrackerDistance
+1 1503960366    4/12/2016      13162          8.50            8.50
+2 1503960366    4/13/2016      10735          6.97            6.97
+3 1503960366    4/14/2016      10460          6.74            6.74
+4 1503960366    4/15/2016       9762          6.28            6.28
+5 1503960366    4/16/2016      12669          8.16            8.16
+6 1503960366    4/17/2016       9705          6.48            6.48
+  LoggedActivitiesDistance VeryActiveDistance ModeratelyActiveDistance
+1                        0               1.88                     0.55
+2                        0               1.57                     0.69
+3                        0               2.44                     0.40
+4                        0               2.14                     1.26
+5                        0               2.71                     0.41
+6                        0               3.19                     0.78
+  LightActiveDistance SedentaryActiveDistance VeryActiveMinutes
+1                6.06                       0                25
+2                4.71                       0                21
+3                3.91                       0                30
+4                2.83                       0                29
+5                5.04                       0                36
+6                2.51                       0                38
+  FairlyActiveMinutes LightlyActiveMinutes SedentaryMinutes Calories
+1                  13                  328              728     1985
+2                  19                  217              776     1797
+3                  11                  181             1218     1776
+4                  34                  209              726     1745
+5                  10                  221              773     1863
+6                  20                  164              539     1728
+```
