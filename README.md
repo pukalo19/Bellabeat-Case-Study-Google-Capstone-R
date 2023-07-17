@@ -118,4 +118,19 @@ Now that we have looked over the data and corrected any inconsistencies/errors w
 
 ## Step 4: Analyze 
 [Back to top](#introduction)
-
+We will begin with fiding out how many particitpants there were in each category of the study. 
+```
+> n_distinct(activity$Id)  
+[1] 33
+> n_distinct(calories$Id)   
+[1] 33
+> 
+> n_distinct(intensities$Id)
+[1] 33
+> 
+> n_distinct(sleep$Id)
+[1] 24
+> 
+> n_distinct(weight$Id)
+[1] 8
+```
