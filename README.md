@@ -135,3 +135,22 @@ We will begin with fiding out how many particitpants there were in each category
 > n_distinct(weight$Id)
 [1] 8
 ```
+So, there are 33 participants in the Activity, Calories, and Intensities datasets. 24 participants in the Sleep data. The real problem is there is only eight participants in the weight dataset, meaning that we are not likely to be able to make a strong reccomendation or decision with only data from eight participants.
+
+Let's see if there was any major changes in these eight participants weight
+```
+weight%>%
+  group_by(Id)%>%
+  summarise(min(WeightKg),max(WeightKg))
+
+Id `min(WeightKg)` `max(WeightKg)`
+       <dbl>           <dbl>           <dbl>
+1 1503960366            52.6            52.6
+2 1927972279           134.            134. 
+3 2873212765            56.7            57.3
+4 4319703577            72.3            72.4
+5 4558609924            69.1            70.3
+6 5577150313            90.7            90.7
+7 6962181067            61              62.5
+8 8877689391            84              85.8
+```
