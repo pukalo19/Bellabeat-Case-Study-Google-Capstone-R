@@ -51,3 +51,15 @@ library(ggplot2)
 library(tidyr)
 library(janitor)
 ```
+## Step 3: Process 
+[Back to top](#introduction)
+
+### Importing the data
+```
+#Reading the data
+activity <- read.csv("dailyActivity_merged.csv",TRUE,",")
+calories <- read.csv("dailyCalories_merged.csv",TRUE,",")
+intensities <- read.csv("hourlyIntensities_merged.csv", TRUE, ",")
+sleep <- read.csv("sleepDay_merged.csv",TRUE, ",")
+weight <- read.csv("weightLogInfo_merged.csv",TRUE, ",")
+```
