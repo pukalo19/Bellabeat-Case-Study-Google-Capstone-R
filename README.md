@@ -113,4 +113,9 @@ intensities$date <- format(intensities$ActivityHour, format = "%m/%d/%y")
 
 sleep$SleepDay=as.POSIXct(sleep$SleepDay, format="%m/%d/%Y %I:%M:%S %p", tz=Sys.timezone())
 sleep$date <- format(sleep$SleepDay, format = "%m/%d/%y")
-``` 
+```
+Now that we have looked over the data and corrected any inconsistencies/errors we can begin to analyze the data.
+
+## Step 4: Analyze 
+[Back to top](#introduction)
+
