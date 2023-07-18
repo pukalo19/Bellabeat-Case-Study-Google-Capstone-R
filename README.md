@@ -221,3 +221,11 @@ Before moving on to the analyze step I will use an inner join to merge the activ
 merged_data <- merge(sleep,activity)
 ```
 
+## Step 5: Share 
+[Back to top](#introduction)
+<br>
+
+```
+ggplot(data = activity, aes(x = TotalSteps, y = Calories)) + geom_point() + geom_smooth() + labs(title = " Steps vs. Calories")
+```
+
