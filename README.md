@@ -245,6 +245,11 @@ cor(merged_data$Calories,merged_data$TotalSleepRecords)
 That confirms that there is no significant correlation between the two.
 
 
+
+
+
+
+
 Next, I will check and see if there is a correlation between sedentary time and sleep duration.
 ```
 ggplot(data = merged_data, mapping = aes(x = SedentaryMinutes, y = TotalMinutesAsleep)) + geom_point() + geom_smooth() + labs(title= "Sleep Duration vs Sedentary Time")
