@@ -213,3 +213,11 @@ TotalSleepRecords TotalMinutesAsleep TotalTimeInBed
 * Lightly active is what most of our participants would be categorized as.
 * The average sleep time for participants is approximately seven hours.
 * Participants average 7.6 hours spent in bed each night.
+
+
+## Combining Tables 
+Before moving on to the analyze step I will use an inner join to merge the activity and sleep tables.
+```
+merged_data <- merge(sleep,activity)
+```
+
