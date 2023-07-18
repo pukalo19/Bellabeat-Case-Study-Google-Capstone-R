@@ -229,3 +229,12 @@ merged_data <- merge(sleep,activity)
 ggplot(data = activity, aes(x = TotalSteps, y = Calories)) + geom_point() + geom_smooth() + labs(title = " Steps vs. Calories")
 ```
 ![Cals_vs_Steps](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/2579e209-c8db-425b-8f6d-075f1f24b193)
+
+Looking at the chart above, we can confirm something we may have already known. The more steps our participants are taking the more calories they are burning.
+
+```
+ ggplot(data = merged_data, mapping = aes(x= Calories, y= TotalMinutesAsleep )) + geom_point() + labs(title = "Calories Burned vs Time Asleep")
+```
+
+
+
