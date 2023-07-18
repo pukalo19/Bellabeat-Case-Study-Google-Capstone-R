@@ -236,6 +236,17 @@ Looking at the chart above, we can confirm something we may have already known. 
  ggplot(data = merged_data, mapping = aes(x= Calories, y= TotalMinutesAsleep )) + geom_point() + labs(title = "Calories Burned vs Time Asleep")
 ```
 ![Cals_vs_sleep](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/00900360-9269-4635-83d0-6f584056c594)
+I had a feeling that there would be a correlation between the amount of calories burned and how much sleep each participant got. Given the data in the chart there does not appear to be a correlation. 
+Lets run a correlation test as well. 
+```
+cor(merged_data$Calories,merged_data$TotalSleepRecords)
+[1] -0.05105987
+```
+That confirms that there is no significant correlation between the two.
+
+```
+ggplot(data = merged_data, mapping = aes(x = SedentaryMinutes, y = TotalMinutesAsleep)) + geom_point() + geom_smooth() + labs(title= "Sleep Duration vs Sedentary Time")
+```
 
 
 
