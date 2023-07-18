@@ -235,6 +235,7 @@ Looking at the chart above, we can confirm something we may have already known. 
 ```
  ggplot(data = merged_data, mapping = aes(x= Calories, y= TotalMinutesAsleep )) + geom_point() + labs(title = "Calories Burned vs Time Asleep")
 ```
+![Cals_vs_sleep](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/00900360-9269-4635-83d0-6f584056c594)
 
 
 
