@@ -228,4 +228,3 @@ merged_data <- merge(sleep,activity)
 ```
 ggplot(data = activity, aes(x = TotalSteps, y = Calories)) + geom_point() + geom_smooth() + labs(title = " Steps vs. Calories")
 ```
-![Cals_vs_steps.pdf](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/files/12087926/Cals_vs_steps.pdf)
