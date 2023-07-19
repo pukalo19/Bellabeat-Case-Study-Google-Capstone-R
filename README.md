@@ -255,3 +255,9 @@ Lastly, lets check and see what the relationship looks like  between the amount 
 ```
 ggplot(data=sleep, mapping = aes(x=TotalTimeInBed, y=TotalMinutesAsleep)) + geom_point() + geom_smooth() + labs(title = "Time Asleep vs Time In Bed")
 ```
+![time_asleep_vs_in_bed](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/b0c0fd86-1432-469a-bf16-d8619c6163fb)
+It looks like we have a positive relationship between the two. So, the more time our participants are spending in bed the more total minutes of sleep they are getting.
+
+## Step 6: Act 
+[Back to top](#introduction)
+<br>
