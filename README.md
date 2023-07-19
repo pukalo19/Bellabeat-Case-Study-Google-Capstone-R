@@ -261,3 +261,4 @@ It looks like we have a positive relationship between the two. So, the more time
 ## Step 6: Act 
 [Back to top](#introduction)
 <br>
+![Screen Shot 2023-07-19 at 2 47 43 PM](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/fd1d79b6-9090-424b-9896-8be5a432102b)
