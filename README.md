@@ -1,6 +1,6 @@
-## bellabeat fitness tracker case study for Google Data Annyltics Course Capstone by: Adam Pukalo
-**Date: July 13, 2023** 
-#
+## Bellabeat Fitness Tracker Case Study for Google Data Analytics Course Capstone by Adam Pukalo
+Date: July 13, 2023
+
 _This case study will follow the six step data analysis procee:_
 ###  1. [Ask](#step-1-ask)
 ###  2. [Prepare](#step-2-prepare)
