@@ -262,3 +262,11 @@ It looks like we have a positive relationship between the two. So, the more time
 [Back to top](#introduction)
 <br>
 ![Screen Shot 2023-07-19 at 2 47 43 PM](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/fd1d79b6-9090-424b-9896-8be5a432102b)
+
+##Recap
+Bellabeat, a high-tech company that manufactures health-focused smart products.One of the founders Sršen, used her background as an artist to develop beautifully designed technology that informs and inspires women around the world. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. The marketing team at bellabeat has been asked to look at competitors data and make suggestions that could help unlock new growth opportunities for the company.
+
+##Recommendations
+1. Our average participant was considered "lightly Active" and averaged 7638 steps per day. bellabeat should consider reminders or goal incentives to get users taking more steps. This could in turn burn more calories for the user and could help with a number of goals such as weight loss or thier activity rating.
+2. I strongly reccomend that bellabeat issues out reminders to reduce sedentaty time, users averaged 16.5 hours of sedentary time. Not only do users burn less calories during sedentary time but it also negatively impacts thier sleep.
+3. To further improve users sleep, bellabeat could suggest to users to get into bed at a certain time before when they usually fall asleep. A so called "bedtime" maybe. If we can encourage users to spend more time in bed it is likely they will increase their total time spent sleeping.
