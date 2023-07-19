@@ -261,10 +261,14 @@ It looks like we have a positive relationship between the two. So, the more time
 <br>
 ![Screen Shot 2023-07-19 at 2 47 43 PM](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/fd1d79b6-9090-424b-9896-8be5a432102b)
 
-## Recap
-Bellabeat, a high-tech company that manufactures health-focused smart products.One of the founders Sršen, used her background as an artist to develop beautifully designed technology that informs and inspires women around the world. Collecting data on activity, sleep, stress, and reproductive health has allowed Bellabeat to empower women with knowledge about their own health and habits. The marketing team at bellabeat has been asked to look at competitors data and make suggestions that could help unlock new growth opportunities for the company.
+## Based on the analysis, the following recommendations are proposed:
+1. Encourage users to increase their daily step count by setting personalized step goals and providing reminders through the Bellabeat app. This can help users burn more calories and improve their activity rating.
+2. Address sedentary behavior by sending notifications to users to take breaks and engage in light physical activity throughout the day. This can help reduce sedentary time and increase overall activity levels.
+3. Implement a "Bedtime" feature in the Bellabeat app to encourage users to establish a consistent sleep routine. Reminders can be sent to prompt users to get into bed at a specific time before their usual sleep onset. This can help improve sleep duration and quality.
+4. Utilize the collected data on activity, sleep, and stress to offer personalized wellness insights to Bellabeat users. Develop algorithms and machine learning models to analyze the data and provide tailored recommendations based on individual patterns and goals.
 
-## Recommendations
-1. Our average participant was considered "lightly Active" and averaged 7638 steps per day. bellabeat should consider reminders or goal incentives to get users taking more steps. This could in turn burn more calories for the user and could help with a number of goals such as weight loss or thier activity rating.
-2. I strongly reccomend that bellabeat issues out reminders to reduce sedentaty time, users averaged 16.5 hours of sedentary time. Not only do users burn less calories during sedentary time but it also negatively impacts thier sleep.
-3. To further improve users sleep, bellabeat could suggest to users to get into bed at a certain time before when they usually fall asleep. A so called "bedtime" maybe. If we can encourage users to spend more time in bed it is likely they will increase their total time spent sleeping.
+These recommendations aim to leverage the insights gained from the data analysis to enhance Bellabeat's marketing strategy and unlock new growth opportunities.
+## Conclusion
+In conclusion, by analyzing the competitor's data and identifying trends in smart device usage, we have provided valuable recommendations to enhance Bellabeat's marketing strategy. The proposed actions focus on increasing activity levels, reducing sedentary behavior, improving sleep patterns, and offering personalized wellness insights to users. By implementing these recommendations, Bellabeat can further empower women with knowledge about their health and habits, driving growth and success in the market.
+
+By incorporating this additional recommendation, Bellabeat can provide users with personalized insights and recommendations, tailoring the user experience to their specific needs and goals. This data-driven approach will strengthen user engagement, promote healthy behaviors, and position Bellabeat as a leader in the health and wellness industry.
