@@ -244,12 +244,6 @@ cor(merged_data$Calories,merged_data$TotalSleepRecords)
 ```
 That confirms that there is no significant correlation between the two.
 
-
-
-
-
-
-
 Next, I will check and see if there is a correlation between sedentary time and sleep duration.
 ```
 ggplot(data = merged_data, mapping = aes(x = SedentaryMinutes, y = TotalMinutesAsleep)) + geom_point() + geom_smooth() + labs(title= "Sleep Duration vs Sedentary Time")
@@ -257,4 +251,7 @@ ggplot(data = merged_data, mapping = aes(x = SedentaryMinutes, y = TotalMinutesA
 ![sed_sleep](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/27382911-ea78-4b4e-bc18-27fa679bcf7d)
 We can derive from this chart that there is a negative correlation between sleep and sedentary time, meaning that the more time our participants spent sedentary the less they would sleep.
 
-
+Lastly, lets check and see what the relationship looks like  between the amount of time spent in bed against time asleep.
+```
+ggplot(data=sleep, mapping = aes(x=TotalTimeInBed, y=TotalMinutesAsleep)) + geom_point() + geom_smooth() + labs(title = "Time Asleep vs Time In Bed")
+```
