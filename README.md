@@ -61,7 +61,7 @@ intensities <- read.csv("hourlyIntensities_merged.csv", TRUE, ",")
 sleep <- read.csv("sleepDay_merged.csv",TRUE, ",")
 weight <- read.csv("weightLogInfo_merged.csv",TRUE, ",")
 ```
-Now that all the data we will be using is uploaded we can start the process of cleaning the data. Lets take a look at the data and 
+Now that all the data we will be using is uploaded we can start the process of cleaning the data. Lets take a look at the data first.
 ```
           Id ActivityDate TotalSteps TotalDistance TrackerDistance
 1 1503960366    4/12/2016      13162          8.50            8.50
@@ -233,13 +233,13 @@ Looking at the chart above, we can confirm something we may have already known. 
  ggplot(data = merged_data, mapping = aes(x= Calories, y= TotalMinutesAsleep )) + geom_point() + labs(title = "Calories Burned vs Time Asleep")
 ```
 ![Cals_vs_sleep](https://github.com/pukalo19/bellabeat_case_study_Google_Capstone_R/assets/131198211/00900360-9269-4635-83d0-6f584056c594)
-I had a feeling that there would be a correlation between the amount of calories burned and how much sleep each participant got. Given the data in the chart there does not appear to be a correlation. 
+I hypothesized there would be a correlation between the amount of calories burned and how much sleep each participant got. The chart does not support my hypothesis. 
 Lets run a correlation test as well. 
 ```
 cor(merged_data$Calories,merged_data$TotalSleepRecords)
 [1] -0.05105987
 ```
-That confirms that there is no significant correlation between the two.
+That confirms that my hypothesis is incorrect and there is no signifiacnt correlation.
 
 Next, I will check and see if there is a correlation between sedentary time and sleep duration.
 ```
